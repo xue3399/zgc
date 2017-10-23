@@ -1,0 +1,414 @@
+.c a img{display: block;opacity:1; filter:alpha(opacity=100);-webkit-transition: opacity .2s ease-in-out;-moz-transition: opacity .2s ease-in-out;-o-transition: opacity .2s ease-in-out;-ms-transition: opacity .2s ease-in-out;transition: opacity .2s ease-in-out;}
+.c li:hover img{opacity:0.75; filter:alpha(opacity=75);}
+/*cotainer开始*/
+.container{
+	max-width: 1000px;
+	min-width: 320px;
+	margin: 0 auto;
+	margin-top: 120px;
+}
+.container .box .introduction,.container .main{
+	float: left;
+}
+.container .introduction{
+	width: 225px;
+	border-right: 1px solid #bbb;
+	padding-right: 15px;
+}
+
+.container .introduction ul li{
+	height: 77px;
+	cursor: pointer;
+	border-bottom: 3px solid #fff;
+}
+.container .introduction ul li:nth-of-type(1){
+	border-bottom: 3px solid #fff;
+	background: url(../images/class-2.gif) no-repeat 20px center;
+}
+.container .introduction ul li:nth-of-type(2){
+	border-bottom: 3px solid #fff;
+	background: url(../images/shixi-2.gif) no-repeat 20px center;
+}
+.container .introduction ul li:nth-of-type(3){
+	border-bottom: 3px solid #fff;
+	background: url(../images/sport-2.gif) no-repeat 20px center;
+}
+.container .introduction ul li:nth-of-type(4){
+	border-bottom: 3px solid #fff;
+	background: url(../images/colgate-2.gif) no-repeat 20px center;
+}
+.container .introduction ul li:nth-of-type(5){
+	border-bottom: 3px solid #fa9634;
+	background: url(../images/watch.gif) no-repeat 20px center;
+}
+.container .introduction ul li:nth-of-type(6){
+	border-bottom: 3px solid #fff;
+	background: url(../images/night-2.gif) no-repeat 20px center;
+}
+.container .introduction ul li{
+		border-bottom: 3px solid #fff;
+	}
+.container .introduction ul li:hover:nth-of-type(1){
+	background: url(../images/class.gif) no-repeat 20px center;
+}
+.container .introduction ul li:hover:nth-of-type(2){
+	background: url(../images/shixi.gif) no-repeat 20px center;
+}
+.container .introduction ul li:hover:nth-of-type(3){
+	background: url(../images/sport.gif) no-repeat 20px center;
+}
+.container .introduction ul li:hover:nth-of-type(4){
+	background: url(../images/colgate.gif) no-repeat 20px center;
+}
+.container .introduction ul li:hover:nth-of-type(5){
+	background: url(../images/watch.gif) no-repeat 20px center;
+}
+.container .introduction ul li:hover:nth-of-type(6){
+	background: url(../images/night.gif) no-repeat 20px center;
+}
+.container .introduction ul li:hover{
+		border-bottom: 3px solid #fa9634;
+	}
+.container .introduction ul li a{
+	display: block;
+	font-size: 2.4em;
+	padding-top: 29px;
+	color: #222;
+	width: 200px;
+	padding-left: 70px;
+	font-weight: normal;
+}
+.container .main {
+	width: 650px;
+	margin-left: 50px;
+	margin-bottom: 100px;
+}
+.container .main p{
+	font-size: 1.6em;
+	line-height: 30px;
+	text-indent: 32px;
+	color: #000;
+}	
+.slider7{
+	display: none;
+}
+.c{overflow:hidden;width:690px;margin:0 auto;background-color:#FFFFFF; height:490px;}
+.c1{height: 490px;margin:20px 0;*overflow:hidden;}
+.c1_l{float: left;width: 690px;height: 490px;}
+.c1_slide{width: 690px;height: 400px;position: relative;overflow: hidden;}
+.c1_slide ul{width: 3500px;height: 400px;position: absolute;top: 0;left: 0;}
+.c1_slide li{float: left;width: 694px;height: 100%;position: relative;}
+
+.c1_paging{width: 100%;height: 91px;background: url(../images/r.png) repeat-x 0 0;}
+.c1_paging ul{}
+.c1_paging li{float: left;width: 136px;height: 91px;margin:0 1px;position: relative;}
+.c1_paging li.active i{display:block;position:absolute;top:-9px;left:-1;height:101px;width:136px;background: url(../images/i_i.png) no-repeat 0 0;}
+.c1_paging li:hover b,.c1_paging li.active b{display: none;}
+
+.c1_paging li img,.c1_paging li b{position: absolute;top:13px;left: 13px;}
+.c1_paging li b{background: url(../images/opacity.png) no-repeat 0 0;width:110px;height: 65px;}
+.c1_paging li img{
+	display: block;
+	width: 110px;
+	height: 65px;
+}
+@media only screen and (min-width:1000px){
+	.bx-controls-direction{
+		display: none;
+	}
+}
+@media only screen and (max-width:1000px) and (min-width:720px) {
+	.container .introduction{
+		width: 97%;
+		border-right: none;
+		padding-right: 1.5%;
+		/*clear: both;*/
+	}
+	.container .introduction ul{
+		padding: 0 1.5%;
+	}
+	.container .introduction ul li{
+		width: 32%;
+		float: left;
+		text-align: center;
+		margin-right: 2%;
+		margin-bottom: 20px;
+	}
+	.container .introduction ul li:nth-of-type(1){
+		border-bottom: 3px solid #fff;
+		background: url(../images/class-2.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:nth-of-type(2){
+		border-bottom: 3px solid #fff;
+		background: url(../images/shixi-2.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:nth-of-type(3){
+		border-bottom: 3px solid #fff;
+		background: url(../images/sport-2.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:nth-of-type(4){
+		border-bottom: 3px solid #fff;
+		background: url(../images/colgate-2.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:nth-of-type(5){
+		border-bottom: 3px solid #fff;
+		background: url(../images/watch.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:nth-of-type(6){
+		border-bottom: 3px solid #fff;
+		background: url(../images/night-2.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:hover:nth-of-type(1){
+		background: url(../images/class.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:hover:nth-of-type(2){
+		background: url(../images/shixi.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:hover:nth-of-type(3){
+		background: url(../images/sport.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:hover:nth-of-type(4){
+		background: url(../images/colgate.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:hover:nth-of-type(5){
+		background: url(../images/watch.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:hover:nth-of-type(6){
+		background: url(../images/night.gif) no-repeat 50% center;
+	}
+.container .introduction ul li:hover{
+		border-bottom: 3px solid #fff;
+	}
+	.container .introduction ul li a{
+		display: block;
+		width: 100%;
+		padding-left: 0;
+		padding-top: 66px;
+	}
+	.container .introduction ul li:nth-of-type(3n){
+		margin-right: 0;
+	}
+	.c{
+		display: none;
+	}
+	.slider7{
+		display: block;
+	}
+	.slider7 .slider>img{
+		width: 100%;
+	}
+	.container{
+		margin-top: 40px;
+	}
+	
+	.container .main {
+		width: 97%;
+		margin-left: 0;
+		padding: 0 1.5%;
+		clear: both;
+	}
+	.container .main .div{
+		
+	}
+}
+@media only screen and (max-width:720px) and (min-width:480px) {
+	.container .introduction{
+		width: 97%;
+		border-right: none;
+		padding-right: 1.5%;
+		/*clear: both;*/
+	}
+	.container .introduction ul{
+		padding: 0 1.5%;
+	}
+	.container .introduction ul li{
+		width: 32%;
+		float: left;
+		text-align: center;
+		margin-right: 2%;
+		margin-bottom: 20px;
+	}
+	
+	.container .introduction ul li:nth-of-type(1){
+		border-bottom: 3px solid #fff;
+		background: url(../images/class-2.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:nth-of-type(2){
+		border-bottom: 3px solid #fff;
+		background: url(../images/shixi-2.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:nth-of-type(3){
+		border-bottom: 3px solid #fff;
+		background: url(../images/sport-2.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:nth-of-type(4){
+		border-bottom: 3px solid #fff;
+		background: url(../images/colgate-2.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:nth-of-type(5){
+		border-bottom: 3px solid #fff;
+		background: url(../images/watch.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:nth-of-type(6){
+		border-bottom: 3px solid #fff;
+		background: url(../images/night-2.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:hover:nth-of-type(1){
+		background: url(../images/class.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:hover:nth-of-type(2){
+		background: url(../images/shixi.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:hover:nth-of-type(3){
+		background: url(../images/sport.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:hover:nth-of-type(4){
+		background: url(../images/colgate.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:hover:nth-of-type(5){
+		background: url(../images/watch.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:hover:nth-of-type(6){
+		background: url(../images/night.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li a{
+		display: block;
+		width: 100%;
+		padding-left: 0;
+		padding-top: 66px;
+		font-size: 2.2em;
+	}
+	.container .introduction ul li a>span{
+		display: none;
+	}
+	.container .introduction ul li:nth-of-type(3n){
+		margin-right: 0;
+	}
+	.c{
+		display: none;
+	}
+	.slider7{
+		display: block;
+	}
+	.slider7 .slider>img{
+		width: 100%;
+	}
+	.container{
+		margin-top: 40px;
+	}
+	
+	.container .main {
+		width: 97%;
+		margin-left: 0;
+		padding: 0 1.5%;
+		clear: both;
+	}
+	@media only screen and (max-width:500px) and (min-width:480px) {
+		.container .introduction ul li a{
+			font-size: 2.2em;
+		}
+	}
+}
+@media only screen and (max-width:480px) {
+	.container .introduction{
+		width: 97%;
+		border-right: none;
+		padding-right: 1.5%;
+		/*clear: both;*/
+	}
+	.container .introduction ul{
+		padding: 0 1.5%;
+	}
+	.container .introduction ul li{
+		width: 32%;
+		float: left;
+		text-align: center;
+		margin-right: 2%;
+		margin-bottom: 20px;
+	}
+	.container .introduction ul li:nth-of-type(1){
+		border-bottom: 3px solid #fff;
+		background: url(../images/class-2.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:nth-of-type(2){
+		border-bottom: 3px solid #fff;
+		background: url(../images/shixi-2.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:nth-of-type(3){
+		border-bottom: 3px solid #fff;
+		background: url(../images/sport-2.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:nth-of-type(4){
+		border-bottom: 3px solid #fff;
+		background: url(../images/colgate-2.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:nth-of-type(5){
+		border-bottom: 3px solid #fff;
+		background: url(../images/watch.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:nth-of-type(6){
+		border-bottom: 3px solid #fff;
+		background: url(../images/night-2.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:hover:nth-of-type(1){
+		background: url(../images/class.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:hover:nth-of-type(2){
+		background: url(../images/shixi.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:hover:nth-of-type(3){
+		background: url(../images/sport.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:hover:nth-of-type(4){
+		background: url(../images/colgate.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:hover:nth-of-type(5){
+		background: url(../images/watch.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li:hover:nth-of-type(6){
+		background: url(../images/night.gif) no-repeat 50% center;
+	}
+	.container .introduction ul li a{
+		display: block;
+		width: 100%;
+		padding-left: 0;
+		padding-top: 66px;
+		font-size: 2.0em;
+	}
+	.container .introduction ul li a>span{
+		display: none;
+	}
+	.container .introduction ul li:nth-of-type(3n){
+		margin-right: 2%;
+	}
+	.container .introduction ul li:nth-of-type(2n){
+		margin-right: 0;
+	}
+	.c{
+		display: none;
+	}
+	.slider7{
+		display: block;
+	}
+	.slider7 .slider>img{
+		width: 100%;
+	}
+	.container{
+		margin-top: 40px;
+	}
+	
+	.container .main {
+		width: 97%;
+		margin-left: 0;
+		padding: 0 1.5%;
+		clear: both;
+	}
+}
+
+
+
+
+
+
+
+

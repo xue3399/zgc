@@ -1,0 +1,300 @@
+/*container  开始、*/
+.container{
+	max-width: 1000px;
+	min-width: 320px;
+	margin: 0 auto;
+	margin-top: 120px;
+}
+.container .box .introduction,.container .main{
+	float: left;
+}
+.container .introduction{
+	width: 250px;
+	border-right: 1px solid #bbb;
+	padding-right: 15px;
+}
+
+.container .introduction ul li{
+	width: 250px;
+	height: 77px;
+	line-height: 77px;
+	
+}
+.container .introduction ul li:nth-of-type(1){
+	background: url(../images/situa_03.png) no-repeat 20px center;
+	border-bottom: 3px solid #fa9634;
+}
+.container .introduction ul li:nth-of-type(2){
+	background: url(../images/situa_06.png) no-repeat 20px center;
+	border-bottom: 3px solid #fff;
+}
+.container .introduction ul li:hover{
+	border-bottom: 3px solid #fa9634;
+}
+.container .introduction ul li:nth-of-type(1):hover{
+	background: url(../images/situa_03.png) no-repeat 20px center;
+}
+.container .introduction ul li:nth-of-type(2):hover{
+	background: url(../images/situ_06.png) no-repeat 20px center;
+}
+.container .introduction ul li:nth-of-type(1):hover a,.container .introduction ul li:nth-of-type(2):hover a{
+	color: #fa9634;
+}
+.container .introduction ul li a{
+	display: block;
+	font-size: 2.2em;
+	color: #222;
+	width: 160px;
+	padding-left: 90px;
+	font-weight: normal;
+}
+.container .main {
+	width: 684px;
+	padding-left: 50px;
+}
+.container .main p{
+	line-height: 30px;
+	text-indent: 2.8em;
+	font-size: 1.6em;
+	padding-right: 22px;
+	width: 662px;
+	font-weight: normal;
+	font-family: "microsoft yahei";
+}
+.container .main p:nth-of-type(2){
+	margin-bottom: 30px;
+}
+.container .main p:nth-of-type(3){
+	margin-bottom: 140px;
+}
+.container .main .main_img{
+	padding: 16px 10px 34px 0;
+}
+.container .main .main_img>img{
+	display: block;
+	max-width: 100%;
+}
+@media only screen and (max-width:1000px) and (min-width:720px) {
+	.container{
+		margin-top: 40px;
+	}
+	.container .introduction{
+		width: 26.5%;
+		border-right: 1px solid #bbb;
+	}
+	.container .box{
+		padding-left: 6%;
+	}
+	.container .introduction ul li{
+		width: 94.3396%;
+	}
+	.container .introduction ul li:nth-of-type(1),.container .introduction ul li:nth-of-type(2){
+		border-bottom: none;
+	}
+	.container .introduction ul li:hover{
+		border-bottom:none;
+	}
+	.container .introduction ul li a{
+		width: 64%;
+		padding-left: 36%;
+	}
+	.container .introduction ul li:nth-of-type(1){
+		background: url(../images/situa_03.png) no-repeat 8% center;
+	}
+	.container .introduction ul li:nth-of-type(2){
+		background: url(../images/situa_06.png) no-repeat 8% center;
+	}
+	.container .introduction ul li:nth-of-type(1):hover{
+		background: url(../images/situa_03.png) no-repeat 8% center;
+	}
+	.container .introduction ul li:nth-of-type(2):hover{
+		background: url(../images/situ_06.png) no-repeat 8% center;
+	}
+	.container .main{
+		width: 56.4%;
+		padding-left: 6.81198%;
+	}
+	.container .main p{
+		width: 96.783625%;
+		padding-right: 3.21637%;
+	}
+	.container .main .main_img{
+		padding: 16px 1.46198% 34px 0;
+	}
+}
+@media only screen and (max-width:720px) and (min-width:480px) {
+	.container{
+		margin-top: 40px;
+	}
+	.container .box .introduction,.container .main{
+	clear: both;
+	}
+	.container .introduction{
+		width: 90%;
+		border-right: none;
+	}
+	.container .box .introduction ul li{
+		width: 43%;
+		float: left;
+		margin-right: 13%;
+	}
+	.container .introduction ul li:nth-of-type(1),.container .introduction ul li:nth-of-type(2){
+		border-bottom: none;
+	}
+	.container .introduction ul li:hover{
+		border-bottom: none;
+	}
+	.container .introduction ul li a{
+		
+		padding-left: 43%;
+	}
+	.container .introduction ul li:nth-of-type(1){
+		background: url(../images/situa_03.png) no-repeat 8% center;
+	}
+	.container .introduction ul li:nth-of-type(2){
+		background: url(../images/situa_06.png) no-repeat 8% center;
+	}
+	.container .introduction ul li:nth-of-type(1):hover{
+		background: url(../images/situa_03.png) no-repeat 8% center;
+	}
+	.container .introduction ul li:nth-of-type(2):hover{
+		background: url(../images/situ_06.png) no-repeat 8% center;
+	}
+	.container .box .introduction ul li:nth-of-type(2){
+		margin-right: 0;
+	}
+	.container .box{
+		padding-left: 10%;
+	}
+	.container .main{
+		width: 93.188%;
+		padding-left: 6.81198%;
+		margin-right: 0;
+	}
+	.container .main p{
+		width: 94%;
+		padding-right: 3.21637%;
+		
+	}
+	.container .main .main_img{
+		padding: 16px 5.46198% 34px 0;
+	}
+	@media only screen and (max-width:555px) and (min-width:480px) {
+		.container .introduction{
+			width: 92%;
+			border-right: none;
+			margin-bottom: 30px;
+		}
+		.container .box .introduction ul li{
+			width: 50%;
+			float: left;
+			margin-right: 0;
+		}
+		.container .introduction ul li a{
+			width: 100%;
+			padding-left: 0;
+			display: block;
+			text-align: center;
+			padding-top: 50px;
+		}
+		.container .introduction ul li:nth-of-type(1){
+			background: url(../images/situ_03.png) no-repeat 50% center;
+		}
+		.container .introduction ul li:nth-of-type(2){
+			background: url(../images/situ_06.png) no-repeat 50% center;
+		}
+		.container .introduction ul li:nth-of-type(1):hover{
+			background: url(../images/situa_03.png) no-repeat 50% center;
+		}
+		.container .introduction ul li:nth-of-type(2):hover{
+			background: url(../images/situ_06.png) no-repeat 50% center;
+		}
+	}
+}
+
+@media only screen and (max-width:480px) {
+	.container{
+		margin-top: 40px;
+	}
+	.container .box .introduction,.container .main{
+	clear: both;
+	}
+	.container .introduction{
+		width: 92%;
+		border-right: none;
+		margin-bottom: 30px;
+	}
+	.container .box .introduction ul li{
+		width: 50%;
+		float: left;
+	}
+	.container .introduction ul li:hover{
+		border-bottom:none;
+	}
+	.container .introduction ul li:nth-of-type(1),.container .introduction ul li:nth-of-type(2){
+		border-bottom: none;
+	}
+	.container .box .introduction ul li a{
+		width: 100%;
+		padding-left: 0;
+		display: block;
+		text-align: center;
+		padding-top: 50px;
+	}
+	.container .introduction ul li:nth-of-type(1){
+		background: url(../images/situ_03.png) no-repeat 50% center;
+	}
+	.container .introduction ul li:nth-of-type(2){
+		background: url(../images/situ_06.png) no-repeat 50% center;
+	}
+	.container .introduction ul li:hover{
+		border-bottom: none;
+	}
+	.container .introduction ul li:nth-of-type(1):hover{
+		background: url(../images/situa_03.png) no-repeat 50% center;
+	}
+	.container .introduction ul li:nth-of-type(2):hover{
+		background: url(../images/situ_06.png) no-repeat 50% center;
+	}
+	.container .box .introduction ul li:nth-of-type(2){
+		margin-right: 0;
+	}
+	.container .box{
+		padding-left: 10%;
+	}
+	.container .main{
+		width: 93.188%;
+		padding-left: 6.81198%;
+		margin-right: 0;
+	}
+	.container .main p{
+		width: 94%;
+		padding-right: 3.21637%;
+		
+	}
+	.container .main .main_img{
+		padding: 16px 5.46198% 34px 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

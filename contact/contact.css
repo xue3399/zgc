@@ -1,0 +1,111 @@
+/*container  start*/
+.container{
+	max-width: 1000px;
+	min-width: 320px;
+	margin: 0 auto;
+	margin-top: 120px;
+	margin-bottom: 167px;
+}
+.container h2{
+	text-align: center;
+	margin-top: 49px;
+	font-size: 1.8em;
+	color: #fa9634;
+	font-weight: bold;
+}
+.container p {
+	text-align: center;
+	margin-top: 18px;
+	font-size: 2.4em;
+	font-weight: bold;
+}
+.container .adreess{
+	text-align: center;
+	margin-top: 7px;
+	font-size: 1.6em;
+	line-height: 36px;
+}
+.container .adreess>span{
+	display: block;
+}
+.container>img{
+	display: block;
+	margin: 0 auto;
+	margin-top: 32px;
+}
+@media only screen and (max-width:1000px) and (min-width:720px) {
+	.container{
+		margin-top: 40px;
+	}
+	.container h2{
+		padding: 0 1%;
+		width: 98%;
+	}
+	.container p{
+		padding: 0 1%;
+		width: 98%;
+		font-size: 2.2em;
+	}
+	.container .adreess{
+		padding: 0 1%;
+		width: 98%;
+	}
+	.container>img{
+		display: block;
+		padding: 0 1%;
+		width: 98%;
+	}
+}
+@media only screen and (max-width:720px) and (min-width:480px) {
+	.container{
+		margin-top: 40px;
+	}
+	.container h2{
+		padding: 0 1%;
+		width: 98%;
+	}
+	.container p{
+		padding: 0 1%;
+		width: 98%;
+		font-size: 2.0em;
+	}
+	.container .adreess{
+		padding: 0 1%;
+		width: 98%;
+	}
+	.container>img{
+		display: block;
+		padding: 0 1%;
+		width: 98%;
+	}
+}
+@media only screen and (max-width:480px) {
+	.container{
+		margin-top: 40px;
+	}
+	.container h2{
+		padding: 0 1%;
+		width: 98%;
+	}
+	.container p{
+		padding: 0 1%;
+		width: 98%;
+		font-size: 1.8em;
+	}
+	.container .adreess{
+		padding: 0 1%;
+		width: 98%;
+	}
+	.container>img{
+		display: block;
+		padding: 0 1%;
+		width: 98%;
+	}
+}
+
+
+
+
+
+
+
